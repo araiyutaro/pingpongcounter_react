@@ -1,0 +1,91 @@
+body {
+  background: #D32F2F;
+}
+
+.parent {
+  display: grid;
+  grid-template:
+        "nameA matchA matchB nameB" 80px
+        "pointA matchA matchB pointB" 250px
+        "pointA changeServer changeServer pointB" 80px
+        "pointA changeEnds changeEnds pointB" 80px
+        "pointA resetScore resetScore pointB" 80px
+        "pointA resetAll resetAll pointB" 80px;
+}
+
+.counter {
+  margin-left: 8px;
+  margin-right: 8px;
+  background: black;
+  color: white;
+  font-size: 5.0rem;
+  border: none;
+}
+
+.option {
+  margin: 8px;
+  font-size: 2.0rem;
+  background: #B71C1C;
+  color: white;
+  border: none;
+}
+
+.name-server {
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 2.0rem;
+  background: yellow;
+  color: black;
+  text-align: center;
+  border: none;
+}
+
+.name-not-server {
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 2.0rem;
+  background: black;
+  color: white;
+  text-align: center;
+  border: none;
+}
+
+#nameA {
+  grid-area: nameA;
+}
+
+#pointA {
+  grid-area: pointA;
+}
+
+#matchA {
+  grid-area: matchA;
+}
+
+#matchB {
+  grid-area: matchB;
+}
+
+#nameB {
+  grid-area: nameB;
+}
+
+#pointB {
+  grid-area: pointB;
+}
+
+#changeServer {
+  grid-area: changeServer;
+}
+
+#changeEnds {
+  grid-area: changeEnds;
+}
+
+#resetScore {
+  grid-area: resetScore;
+}
+
+#resetAll {
+  grid-area: resetAll;
+}
